@@ -11,22 +11,22 @@ namespace Mastonet;
 public enum QuoteApprovalPolicy
 {
     /// <summary>
-    /// Anybody is expected to be able to quote this status and have the quote be automatically accepted.
+    /// Anybody is expected to be able to quote this status.
     /// </summary>
     Public,
 
     /// <summary>
-    /// Followers are expected to be able to quote this status and have the quote be automatically accepted.
+    /// Followers are expected to be able to quote this status.
     /// </summary>
     Followers,
 
     /// <summary>
-    /// People followed by the author are expected to be able to quote this status and have the quote be automatically accepted.
+    /// People followed by the author are expected to be able to quote this status.
     /// </summary>
     Following,
 
     /// <summary>
-    /// The underlying quote policy is not supported by Mastodon. Some accounts that do not fit in the above categories may be able to quote and have the quote be automatically accepted.
+    /// The underlying quote policy is not supported by Mastodon. Some accounts that do not fit in the above categories may be able to quote.
     /// </summary>
     UnsupportedPolicy,
 }
