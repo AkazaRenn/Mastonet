@@ -16,7 +16,7 @@ public enum QuotePolicy
     Public,
 
     /// <summary>
-    /// Only followers and author can quote/
+    /// Only followers and author can quote.
     /// </summary>
     Followers,
 
