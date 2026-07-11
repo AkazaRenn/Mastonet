@@ -5,6 +5,7 @@ namespace Mastonet;
 /// <summary>
 /// Represents the automatic quote approval policy of an account.
 /// https://docs.joinmastodon.org/entities/QuoteApproval/#automatic
+/// https://docs.joinmastodon.org/entities/QuoteApproval/#manual
 /// Version: 4.5.0
 /// </summary>
 [JsonConverter(typeof(JsonEnumConverter<QuoteApprovalPolicy>))]
